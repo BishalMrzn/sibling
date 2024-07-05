@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <p>This is first</p>
+      <p>This is second</p>
+    </div>
+  </body>
+  <script>
+    console.log(document.body.firstChild);
+    console.log(document.body.lastChild);
+    let a = document.body.firstChild.nextSibling;
+    // let b = console.log(
+    //     document.body.lastChild.previousSibling.previousSibling.previousSibling
+    // );
+    console.log(a.parentNode);
+    console.log(a.parentElement);
+  </script>
+</html>
